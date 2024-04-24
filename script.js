@@ -10,6 +10,9 @@ window.onload = function() {
         titleElement.textContent = storedTitle;
 
         localStorage.setItem('pageTitle', storedTitle);
+    } else {
+        title.textContent = "TITLE";
+        localStorage.setItem('pageTitle', "TITLE");
     }
 };
 
